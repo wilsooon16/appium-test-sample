@@ -3,16 +3,20 @@ package com.pintu.tests;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 import com.pintu.helper.GeneralHelper;
 import com.pintu.pages.RegisterPage;
+import com.pintu.utils.Listener;
 import com.pintu.pages.LoginPage;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 
+
+@Listeners(Listener.class)
 public class RegisterNegativeTest {
 
 	private AppiumDriver<MobileElement> driver;

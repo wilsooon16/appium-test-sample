@@ -1,6 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Pintu Mobile Test Suite" parallel="false">
-
+ <listeners>
+        <listener class-name="com.pintu.utils.Listener" />
+    </listeners>
     <test name="Pintu Mobile Test">
         <classes>
             <class name="com.pintu.tests.LoginNegativeTest"/>
