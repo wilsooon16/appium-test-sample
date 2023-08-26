@@ -15,10 +15,10 @@ This project demonstrates the solution for automating tests for the sample mobil
 
 ### Prerequisites
 
-- Java Development Kit (JDK)
-- Apache Maven
+- Java Development Kit (JDK) (min Java 8)
+- Apache Maven (Apache Maven 3.9.2)
 - Android Studio (for Appium dependencies and Android SDK)
-- Appium server installed and running
+- Appium server installed and running (Appium version 1.22.3)
 - Mobile device/emulator setup for testing
 
 ### Setup
@@ -31,10 +31,8 @@ This project demonstrates the solution for automating tests for the sample mobil
 1. Make sure your Appium server is running and your mobile device/emulator is ready.
 2. Open a terminal and navigate to the project directory.
 3. Run the tests using the following command:
-mvn test
+mvn test -DsuiteXmlFile=testng.xml
 
-bash
-Copy code
 
 ### Test Reports
 
