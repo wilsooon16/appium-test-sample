@@ -10,8 +10,8 @@ This project demonstrates the solution for automating tests for the sample mobil
 
 ### Project Structure
 
+<img width="441" alt="Screenshot 2023-08-26 at 17 13 34" src="https://github.com/wilsooon16/appium-test-sample/assets/45891415/91b9e96a-9e3b-4b28-b5a5-3f51d46b15da">
 
-<img width="514" alt="Screenshot 2023-08-26 at 16 51 40" src="https://github.com/wilsooon16/appium-test-sample/assets/45891415/4e507ef8-4354-4623-84a1-126771ffca9d">
 
 ### Prerequisites
 
