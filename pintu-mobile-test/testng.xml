@@ -1,15 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Pintu Mobile Test Suite" parallel="false">
- <listeners>
-        <listener class-name="com.pintu.utils.Listener" />
-    </listeners>
-    <test name="Pintu Mobile Test">
-        <classes>
-            <class name="com.pintu.tests.LoginNegativeTest"/>
-            <class name="com.pintu.tests.LoginTest"/>
-            <class name="com.pintu.tests.RegisterNegativeTest"/>
-            <class name="com.pintu.tests.RegisterTest"/>
-        </classes>
-    </test>
+	<listeners>
+		<listener class-name="com.pintu.utils.Listener" />
+	</listeners>
+	<test name="Pintu Mobile Test">
+		<classes>
+			<class name="com.pintu.tests.RegisterNegativeTest" />
+			<class name="com.pintu.tests.RegisterTest" />
+			<class name="com.pintu.tests.LoginNegativeTest" />
+			<class name="com.pintu.tests.LoginTest" />
+		</classes>
+	</test>
 
 </suite>
