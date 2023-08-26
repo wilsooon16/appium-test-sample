@@ -10,34 +10,8 @@ This project demonstrates the solution for automating tests for the sample mobil
 
 ### Project Structure
 
-pintu-mobile-test/
-|-- app/
-| |-- sample.apk
-|-- pom.xml
-|-- src/
-| |-- main/
-| | |-- java/
-| | | |-- com.pintu/
-| | | | |-- assertion/
-| | | | | |-- Assertions.java
-| | | | |-- helper/
-| | | | | |-- GeneralHelper.java
-| | | | | |-- ScrollHelper.java
-| | | | |-- pages/
-| | | | |-- HomePage.java
-| | | | |-- LoginPage.java
-| | | | |-- RegisterPage.java
-| |-- test/
-| | |-- java/
-| | | |-- com.pintu/
-| | | |-- tests/
-| | | | |-- LoginNegativeTest.java
-| | | | |-- LoginTest.java
-| | | | |-- RegisterNegativeTest.java
-| | | | |-- RegisterTest.java
 
-markdown
-Copy code
+<img width="514" alt="Screenshot 2023-08-26 at 16 51 40" src="https://github.com/wilsooon16/appium-test-sample/assets/45891415/4e507ef8-4354-4623-84a1-126771ffca9d">
 
 ### Prerequisites
 
