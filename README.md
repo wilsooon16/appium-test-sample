@@ -46,4 +46,4 @@ This project demonstrates the solution for automating tests for the sample mobil
 
 ### Test Reports
 
-After running the tests, the test reports will be generated in the `test-output` directory. You can open the HTML reports in a web browser to view the test results.
+After running the tests, the test reports will be generated in the `test-output` directory. You can open the HTML reports in a web browser to view the test results with extent-report* as prefix name.
