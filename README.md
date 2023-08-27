@@ -21,6 +21,27 @@ This project demonstrates the solution for automating tests for the sample mobil
 - Appium server installed and running (Appium version 1.22.3)
 - Mobile device/emulator setup for testing
 
+## Dependencies
+
+- [io.appium/java-client](https://mvnrepository.com/artifact/io.appium/java-client): Java client library for Appium automation.
+  - Version: 7.6.0
+
+- [org.seleniumhq.selenium/selenium-java](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java): Selenium Java bindings for web automation.
+  - Version: 3.141.59
+
+- [com.google.code.gson/gson](https://mvnrepository.com/artifact/com.google.code.gson/gson): Google Gson library for JSON serialization and deserialization.
+  - Version: 2.8.8 (Use the latest version)
+
+- [org.testng/testng](https://mvnrepository.com/artifact/org.testng/testng): TestNG testing framework for Java.
+  - Version: 7.4.0
+
+- [com.github.javafaker/javafaker](https://github.com/DiUS/java-faker): JavaFaker library for generating fake data.
+  - Version: 1.0.2
+
+- [com.aventstack/extentreports](http://extentreports.com/): ExtentReports library for generating HTML test reports.
+  - Version: 4.0.9
+
+
 ### Setup
 
 1. Clone this repository to your local machine.
