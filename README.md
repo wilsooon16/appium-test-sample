@@ -39,8 +39,9 @@ This project demonstrates the solution for automating tests for the sample mobil
 ### Running Tests
 
 1. Make sure your Appium server is running and your mobile device/emulator is ready.
-2. Open a terminal and navigate to the project directory.
-3. Run the tests using the following command:
+2. Update the desired capabilities in the GeneralHelper Java class to match your Android device requirements. You can find the GeneralHelper class in your project's source code.
+3. Open a terminal and navigate to the project directory.
+4. Run the tests using the following command:
 `mvn test -DsuiteXmlFile=testng.xml`
 
 
